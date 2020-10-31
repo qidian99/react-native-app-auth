@@ -1,0 +1,103 @@
+{
+  "_args": [
+    [
+      "github:FormidableLabs/react-native-app-auth#feature/androidx",
+      "/Users/qidian/git/myOK"
+    ]
+  ],
+  "_from": "github:FormidableLabs/react-native-app-auth#feature/androidx",
+  "_id": "react-native-app-auth@github:FormidableLabs/react-native-app-auth#61dc830cb9fa19e47fad8329162cfd7b6dca34be",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/react-native-app-auth",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "github:FormidableLabs/react-native-app-auth#feature/androidx",
+    "rawSpec": "github:FormidableLabs/react-native-app-auth#feature/androidx",
+    "saveSpec": "github:FormidableLabs/react-native-app-auth#feature/androidx",
+    "fetchSpec": null,
+    "gitCommittish": "feature/androidx"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "github:FormidableLabs/react-native-app-auth#61dc830cb9fa19e47fad8329162cfd7b6dca34be",
+  "_spec": "github:FormidableLabs/react-native-app-auth#feature/androidx",
+  "_where": "/Users/qidian/git/myOK",
+  "author": {
+    "name": "kadi.kraman@formidable.com"
+  },
+  "bugs": {
+    "url": "https://github.com/qidian99/react-native-app-auth"
+  },
+  "dependencies": {},
+  "description": "React Native bridge for AppAuth for supporting any OAuth 2 provider",
+  "devDependencies": {
+    "all-contributors-cli": "^4.9.1",
+    "babel-eslint": "^8.0.2",
+    "babel-jest": "^21.2.0",
+    "babel-preset-env": "^1.6.1",
+    "eslint": "2.10.2",
+    "eslint-config-formidable": "^3.0.0",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-filenames": "^1.2.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jest": "^21.3.2",
+    "eslint-plugin-prettier": "^2.6.0",
+    "husky": "^0.14.3",
+    "invariant": "^2.2.2",
+    "jest": "^21.2.1",
+    "lint-staged": "^6.1.0",
+    "prettier": "1.10.2",
+    "react": "^16.1.1",
+    "react-native": "^0.50.3"
+  },
+  "files": [
+    "package.json",
+    "CODE_OF_CONDUCT.md",
+    "CONTRIBUTING.md",
+    "LICENSE",
+    "ios",
+    "android",
+    "index.js",
+    "index.d.ts"
+  ],
+  "homepage": "https://github.com/qidian99/react-native-app-auth",
+  "keywords": [
+    "react",
+    "react-native",
+    "auth",
+    "authentication",
+    "oauth",
+    "appauth"
+  ],
+  "license": "MIT",
+  "lint-staged": {
+    "*.js": [
+      "eslint --fix",
+      "git add"
+    ],
+    "*.ts": [
+      "prettier --write",
+      "git add"
+    ]
+  },
+  "main": "index.js",
+  "name": "react-native-app-auth",
+  "peerDependencies": {
+    "invariant": "^2.2.2",
+    "react-native": ">=0.50.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qidian99/react-native-app-auth"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "precommit": "lint-staged",
+    "test": "jest"
+  },
+  "types": "index.d.ts",
+  "version": "4.4.0"
+}
